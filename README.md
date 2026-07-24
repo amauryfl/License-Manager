@@ -60,14 +60,3 @@ http://localhost:5173
 - Configurar `VITE_API_URL` con la URL pública del backend terminada en `/api`.
 - Configurar `JWT_SECRET` y `FRONTEND_ORIGIN` en el backend.
 
-## Seguridad
-
-Antes de usarlo en producción:
-
-- Cambiar la contraseña inicial.
-- Definir un valor seguro para `JWT_SECRET`.
-- No subir archivos `.env`, `licenses.db`, `.venv` o `node_modules`.
-
-## Nota sobre los logos
-
-El backend genera automáticamente un identificador visual SVG para cada producto usando sus iniciales y un color derivado de su nombre. No se descargan logotipos oficiales de marcas registradas.
